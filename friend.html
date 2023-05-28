@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关注</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/conmom.css">
+    <link rel="stylesheet" href="./css/friend.css">
+    <script src="js/登录弹出框.js"></script>
+    <link rel="stylesheet" href="css/登录弹出框.css">
+
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="container">
+            <div class="topnav-searchbox clearfix">
+                <img src="./images/logo.png" alt="" class="topnav-logo">
+                <span class="topnav-wyy"><a href="#">网易云音乐</a></span>
+                <div class="topnav-nav">
+                    <div>
+                        <a href="./index.html">发现音乐</a>
+                        <div class="topnav-nav-xsj"></div>
+                    </div>
+                    <div><a href="./my-music.html">我的音乐</a></div>
+                    <div><a href="#" class="topnav-nav-friend">关注</a></div>
+                    <div><a href="./shopping.html" target="_blank">商城</a></div>
+                    <div><a href="./musician.html" target="_blank">音乐人</a></div>
+                    <div class="topnav-nav-last">
+                        <a href="./client.html">下载客户端</a>
+                        <div class="topnav-nav-hot">HOT</div>
+                    </div>
+                </div>
+                <p><a href="#">登录</a></p>
+                <a href="#">
+                    <div class="topnav-nav-right">创作者中心</div>
+                </a>
+                <div class="topnav-nav-input">
+                    <i class="iconfont">&#xe6e7</i>
+                    <input type="text" placeholder="音乐/视频/电台/用户">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="register">
+        <div class="register-bx">
+            <div class="back">
+                <a href="#"  onclick="showLoginPopup()">立即登录</a>
+            </div>
+            <div id="loginPopup" class="login-popup">
+                <div class="top">
+                    <span class="close-button" onclick="closeLoginPopup()">&times;</span>
+                    <h3>登录</h3>
+                </div>
+                <div class="bottom">
+                    <div class="logoindiv"><img src="images/login.png" alt=""></div>
+                    <div class="twoweima">
+                        <div class="p">扫码登录</div>
+                        <img src="images/二维码.png" alt="">
+                        <p>使用<a href="client.html">网易云音乐APP</a>扫码登录</p>
+                        <a href="#" id="other" onclick="showLoginOther()">选择其他登录模式</a>
+                        <div class="login-other" id="loginOther">
+                            <div class="top">
+                                <span class="close-button" onclick="closeLoginPopup()">&times;</span>
+                                <h3>登录</h3>
+                            </div>
+                            <div class="other-left">
+                                <img src="images/其他登录方式.png" alt="">
+                                <input type="button" value="手机号码登录/注册">
+                                <!-- <form>
+                                    <p><input type="text" placeholder="用户名"></p>
+                                    <p><input type="password" placeholder="密码"></p>
+                                    <input type="submit" value="登录">
+                                </form> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="music-bottom">
+        <div class="newcontainer">
+            <div class="music-bottom-left">
+                <div class="music-bottom-one-row">
+                    <a href="#">服务条款</a>
+                    <li>|</li>
+                    <a href="#">隐私政策</a>
+                    <li>|</li>
+                    <a href="#">儿童隐私政策 </a>
+                    <li>|</li>
+                    <a href="#">版权投诉指引</a>
+                    <li>|</li>
+                    <a href="#">意见反馈</a>
+                    <li>|</li>
+                    <br>
+                </div>
+                <p class="music-bottom-p1">网易公司版权所有©1997-2019 &nbsp;&nbsp;&nbsp;&nbsp;杭州乐读科技有限公司运营：<a
+                        href="#">浙网文[2018]3506-263号</a></p>
+                <p class="music-bottom-p2">违法和不良信息举报电话：0571-89853516 &nbsp;&nbsp;&nbsp;&nbsp;举报邮箱：<a
+                        href="#">ncm5990@163.com</a></p>
+            </div>
+            <div class="music-bottom-right">
+                <div class="music-bottom-right-box">
+                    <a href="#"><span class="music-bottom-right-img1">
+                        </span></a>
+                    <li>用户认证</li>
+                </div>
+                <div class="music-bottom-right-box">
+                    <a href="#"> <span class="music-bottom-right-img2">
+                        </span></a>
+                    <li>独立音乐人</li>
+                </div>
+                <div class="music-bottom-right-box">
+                    <a href="#"> <span class="music-bottom-right-img3">
+                        </span></a>
+                    <li>赞赏</li>
+                </div>
+                <div class="music-bottom-right-box">
+                    <a href="#"> <span class="music-bottom-right-img4">
+                        </span></a>
+                    <li>视频奖励</li>
+                </div>
+            </div>
+        </div>
+        <a href="#id-top" class="fh-top" title="返回顶部"></a>
+    </div>
+</body>
+
+</html>
