@@ -1,0 +1,150 @@
+.login-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    height: 370px;
+    /* padding: 20px; */
+    background: #fff;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    transform: scale(value);
+}
+
+/* .login-popup input[type="text"],
+.login-popup input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.login-popup input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+} */
+
+.close-button {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+}
+
+.top {
+    background-color: #2d2d2d;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.logoindiv {
+    margin-top: 50px;
+    width: 265px;
+    text-align: center;
+}
+
+.logoindiv img {
+    width: 125px;
+    height: 220px;
+}
+
+.twoweima {
+    margin-top: 50px;
+    width: 265px;
+    text-align: center;
+}
+
+.twoweima p a {
+    text-decoration: none;
+    color: #0c73c2;
+}
+
+.twoweima div.p {
+    font-size: 24px;
+    color: black;
+}
+
+.twoweima img {
+    width: 125px;
+    height: 125px;
+}
+
+#other {
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #979797;
+    background-color: #fff;
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+    border-radius: 30px;
+    color: black;
+}
+
+.top h3 {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.aaa {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+}
+
+.login-other {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    height: 370px;
+    /* padding: 20px; */
+    background: #fff;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    transform: scale(value);
+}
+
+.login-other .other-left{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid red; */
+    border-right: 1px dashed gray;
+}
+
+.login-other .other-left img{
+    width: 224px;
+    height: 120px;
+    margin: 50px auto;
+}
+
+.login-other .other-left input{
+    width: 220px;
+    height: 30px;
+    border: none;
+    background-color: #559cdf;
+    border-radius: 5px;
+    color: white;
+}

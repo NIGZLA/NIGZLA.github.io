@@ -1,0 +1,356 @@
+body {
+    background-color: #f4f4f4;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#content .cont {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    font-size: 12px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+#content .cont .left {
+    width: 700px;
+    height: auto;
+    border-left: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+
+#content .cont .right {
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 1000px;
+    border-right: 1px solid #d3d3d3;
+}
+
+.como {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    /* margin-left:30px; */
+    border-bottom: 2px solid #c20c0c;
+    margin: 20px 30px;
+}
+
+.comment .com-f-1 {
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.comment .com-f-2 {
+    color: gray;
+}
+
+.com1 {
+    margin: 0px 30px;
+    display: flex;
+}
+
+.com img {
+    width: 50px;
+    height: 50px;
+}
+
+.com textarea {
+    margin-left: 15px;
+}
+
+.wonderful {}
+
+.won-1 {
+    border-bottom: 1px solid #cfcfcf;
+    margin: 15px 30px;
+}
+
+.won-cont {
+    margin: 15px 30px;
+    display: flex;
+}
+
+.cnt-1 {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.user {
+    padding-left: 15px;
+}
+
+.user a {
+    text-decoration: none;
+    color: #5abae9;
+}
+
+.user a:hover {
+    text-decoration: underline;
+}
+
+.cnt-2 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.time {
+    color: gray;
+}
+
+.tr {
+    padding-left: 380px;
+    display: flex;
+}
+
+.tr a {
+    text-decoration: none;
+}
+
+.tr-1 {
+    display: flex;
+}
+
+.tr-1 a {
+    color: black;
+}
+
+.tr-0 a {
+    color: gray;
+}
+
+.right .love h4 {
+    margin: 20px 40px;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0px;
+}
+
+.right .love ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 215px;
+    margin: 0px auto;
+}
+
+.right .love ul li {
+    padding: 5px;
+}
+
+.right .hot-list h4 {
+    margin: 20px 40px;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0px;
+}
+
+.right .hot-list ul {
+    list-style: none;
+    width: 215px;
+    margin: 0px auto;
+}
+
+.right .hot-list ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    width: 215px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+.rt {
+    padding-left: 10px;
+}
+
+.rt .ht-lt-name a {
+    text-decoration: none;
+    color: black;
+}
+
+.rt .ht-lt-by a {
+    text-decoration: none;
+    color: gray;
+}
+
+.rt .ht-lt-name a:hover,
+.rt .ht-lt-by a:hover {
+    text-decoration: underline;
+}
+
+.hot-list ul li div .ht-lt-name {
+    width: 150px;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.rt .ht-lt-by span {
+    padding-right: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.right .upload h4 {
+    margin: 20px 40px;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0px;
+}
+
+.right .upload ul {
+    width: 215px;
+    display: flex;
+    list-style: none;
+    margin: 0px auto;
+}
+
+.right .upload ul li{
+    width: 71px;
+    height: 48px;
+}
+
+.right .upload p{
+    margin: 0px auto;
+    width: 215px;
+    color: gray;
+}
+
+.mayuko{
+    padding:10px 15px;
+    padding-right: 15px;
+}
+
+.mayuko a{
+    text-decoration: none;
+    color: #0c89d4;
+}
+
+.mayuko a:hover{
+    text-decoration: underline;
+}
+
+
+.listsong{
+    display: flex;
+    margin-top: 50px;
+    height: auto;
+}
+
+.list-img{
+    width: 205px;
+    height: 205px;
+    margin: 0px auto;
+}
+.list-img img{
+    border-radius: 50%;  
+    position: relative;
+    top: 35px;
+    left: 36px;
+    border: 2px solid #6f7170;
+}
+
+.list-img .black{
+    border-radius: 50%;
+    width: 205px;
+    height: 205px;
+    background-color: #3a3a3a;
+    border: 2px solid #000000;
+}
+
+.list-right{
+    width: 415px;
+    height: 490px;
+}
+.single{
+    background-color: red;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.single-name{
+    line-height: 25px;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.gray{
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.gray a{
+    text-decoration: none;
+    color: #5a73c2;
+}
+
+.gray a:hover{
+    text-decoration: underline;
+}
+
+#album-cover {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    background-color: #ccc;
+}
+
+#lyrics {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.current-line {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#player {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#play-button,
+#pause-button {
+    display: none;
+}
+
+.lqmz a{
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #dedddd;
+}
+
+.lqmz a:hover{
+    background-color: #f9f9f9;
+}

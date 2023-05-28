@@ -1,0 +1,40 @@
+#footer{
+    width: 100%;
+    height: 330px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+#footer ul{
+    line-height: 70px;
+    height: 70px;
+    width: 980px;
+    margin: 0px auto;
+    list-style: none;
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 50px;
+}
+#footer ul li {
+    width: 138px;
+    text-align: center;
+}
+#footer p{
+    width: 970px;
+    height: 30px;
+    margin: 0px auto;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+#footer ul li a{
+    text-decoration: none;
+}
+#footer p a{
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+#footer p a:hover{
+    text-decoration: underline;
+}
+#footer p span{
+    color: gray;
+}
